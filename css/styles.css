@@ -29,7 +29,6 @@ p {
 }
 
 /* Navigation bar */
-
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -53,16 +52,14 @@ p {
 }
 
 /* Title image  */
-
 .title-img {
   width: 25%;
   transform: rotate(25deg);
   position: absolute;
-  right: 15%;
+  right: 20%;
 }
 
 /* Features   */
-
 #features {
   padding: 7% 15%;
   background-color: white;
@@ -70,8 +67,8 @@ p {
 }
 
 .features-box {
-    text-align: center;
-    padding: 4.5%
+  text-align: center;
+  padding: 4.5%
 }
 
 .features-paragraph {
@@ -91,7 +88,6 @@ p {
 }
 
 /* Testimonials section */
-
 #testimonials {
   text-align: center;
   background-color: #ef8172;
@@ -120,7 +116,6 @@ p {
 }
 
 /* Pricing  */
-
 #pricing {
   padding: 100px;
   text-align: center;
@@ -130,7 +125,30 @@ p {
   padding: 3% 2%;
 }
 
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 7% 15% 4%;
+}
+
+.footer-icon {
+  margin: auto 1% 2%;
+}
+
+/* Media  */
 @media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
   .title-img {
     position: static;
     transform: rotate(0);
